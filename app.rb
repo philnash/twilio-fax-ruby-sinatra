@@ -2,6 +2,6 @@ require 'sinatra/base'
 
 class FaxApp < Sinatra::Base
   get '/' do
-    "Hello World!"
+    erb :index
   end
 end

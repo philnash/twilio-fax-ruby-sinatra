@@ -1,0 +1,15 @@
+<h2>Send a new Fax</h2>
+
+<form method="POST" action="/faxes" enctype="multipart/form-data">
+  <div>
+    <label for="number">Fax number</label>
+    <input type="tel" id="number" name="number" required />
+  </div>
+  <div>
+    <label for="file">PDF file</label>
+    <input type="file" id="file" name="file" required accept="application/pdf" />
+  </div>
+  <div>
+    <button type="submit">Send</button>
+  </div>
+</form>

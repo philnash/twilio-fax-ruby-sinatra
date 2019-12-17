@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  color: #565b73;
+}
+
+header,
+footer {
+  background: #0d122b;
+  padding: 0.5em;
+  margin: 1em;
+  border-radius: 6px;
+}
+
+header h1 {
+  text-align: center;
+  color: #36d576;
+  margin: 0;
+}
+
+main {
+  flex-grow: 1;
+  margin: 0 1em;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main form {
+  text-align: center;
+  font-size: 16px;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main form div {
+  padding: 1em 0;
+}
+
+main form label {
+  display: block;
+  font-size: 18px;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+main form input {
+  font-size: 18px;
+  border: 1px solid #94979b;
+  padding: 0.5em;
+  border-radius: 6px;
+  display: block;
+  width: 100%;
+}
+main form input[type="file"] {
+  border: none;
+  padding: 0;
+}
+main form input:focus {
+  border-color: #565b73;
+}
+button {
+  background: #0d122b;
+  color: #36d576;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 0.5em 3em;
+  width: 100%;
+}
+button:hover,
+button:focus {
+  background: #565b73;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+}
+
+a {
+  color: #36d576;
+}
