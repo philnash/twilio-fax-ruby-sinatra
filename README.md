@@ -2,6 +2,8 @@
 
 This is an example application that you can use to send and track faxes using the [Twilio Fax API](https://www.twilio.com/docs/fax).
 
+To find out how to build an application like this, read [the blog post on how to send and track faxes with the Twilio Fax API using Sinatra and Ruby](https://www.twilio.com/blog/send-faxes-twilio-fax-api-sinatra-ruby).
+
 ## Running the app
 
 You'll need the following to run the app:
