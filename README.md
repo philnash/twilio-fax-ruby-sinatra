@@ -1,3 +1,9 @@
+# 🚨 Deprecated 🚨
+
+[The Programmable Fax API was closed on the 17th December 2021](https://www.twilio.com/changelog/programmable-fax-end-life-one-year-notice), so this example app has been deprecated and archived.
+
+---
+
 # Send and track Faxes with the Twilio Fax API using Sinatra and Ruby
 
 This is an example application that you can use to send and track faxes using the [Twilio Fax API](https://www.twilio.com/docs/fax).
